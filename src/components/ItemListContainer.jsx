@@ -1,8 +1,10 @@
-const ItemListContainer = ({ greeting }) => {
+import '../css/ItemListContainer.css';
+const ItemListContainer = (props) => {
     return (
         <div className="container">
-        <h1>{greeting}</h1>
-        <p>Welcome to our store!</p>
+        <h1>{props.saludo}</h1>
         </div>
     );
 }
+
+export default ItemListContainer;

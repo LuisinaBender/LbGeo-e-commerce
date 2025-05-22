@@ -1,8 +1,27 @@
-import './App.css'
-import ButtonMultiuso from "./examples/ButtonMultiuso"
-import Contador from './examples/Contador'
+import './App.css';
+import ButtonMultiuso from "./examples/ButtonMultiuso";
+import Contador from './examples/Contador';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar';
+import CarWidget from './components/CarWidget';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Logo from './components/logo'; 
+
 function App() {
-  const styles = {
+  return (
+    <>
+      <NavBar />
+      <Logo />
+      <ItemListContainer saludo='Bienvenidos a tu solucion online'/>
+      
+    </>
+  );
+}
+
+export default App;
+
+  
+  /*const styles = {
   backgroundColor:'yellow',
   padding:'1rem',
   color:'black',
@@ -17,6 +36,6 @@ function App() {
       <ButtonMultiuso texto={'Mi boton alerta'} styles={styles} handler={saludar}/>
       <ButtonMultiuso texto='Otro boton' cssStyle='mi-boton'/>
     </>
-  )
-}
-export default App
+  )*/
+
+
