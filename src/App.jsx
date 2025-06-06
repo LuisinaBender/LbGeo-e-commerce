@@ -1,6 +1,4 @@
 import './App.css';
-import ButtonMultiuso from "./examples/ButtonMultiuso";
-import Contador from './examples/Contador';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
 import CarWidget from './components/CarWidget';
