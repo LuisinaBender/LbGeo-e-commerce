@@ -19,15 +19,21 @@ import CarWidget from './CarWidget';
             <a href="#" onClick={toggleMenu}>Productos</a>
             {mostrarMenu && (
                 <ul className="navbar__submenu">
-                <li><a href="">Alternador</a></li>
-                <li><a href="">Bobina de Arranque</a></li>
-                <li><a href="">Bobina de Ignicion</a></li>
-                <li><a href="">Inyectores</a></li>
-                <li><a href="">Motor de Arranque</a></li>
-                <li><a href="">Polea de Alternador</a></li>
-                <li><a href="">Sensor ABS</a></li>
-                <li><a href="">Selenoide de Pare</a></li>
-                <li><a href="">Tapas de Moldes de Combustible</a></li>
+                <li><a href="">Aceesorios Estéticos</a></li>
+                <li><a href="">Aire Acondicionado</a></li>
+                <li><a href="">Electricos e Híbridos</a></li>
+                <li><a href="">Control de Emisiones</a></li>
+                <li><a href="">Carrocería</a></li>
+                <li><a href="">Neumáticos y Ruedas</a></li>
+                <li><a href="">Repuesto de Interior</a></li>
+                <li><a href="">Sistema de Combustible</a></li>
+                <li><a href="">Sistema de Escape</a></li>
+                <li><a href="">Sistema de Frenos</a></li>
+                <li><a href="">Sistema de Iluminacion</a></li>
+                <li><a href="">Sistema de Refrigeración</a></li>
+                <li><a href="">Suspensión y Dirección</a></li>
+                <li><a href="">Sistema de Transmisión</a></li>
+                <li><a href="">Motor</a></li>
 
                 </ul>
             )}
